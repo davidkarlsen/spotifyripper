@@ -31,17 +31,20 @@ Usage:
             check if file exists before ripping: ./jbripper.py -u user -p password -U spotify:track:52xaypL0Kjzk0ngwv3oBPR -l ~/Music
 
 features:
-    - real-time VBR ripping from spotify PCM stream
-    - writes id3 tags (including album cover)
 
-prerequisites:  
-    - libspotify (download at https://developer.spotify.com/technologies/libspotify/)
-    - pyspotify (sudo pip install -U pyspotify)
-    - spotify appkey (download at developer.spotify.com, requires premium!)
-    - jukebox.py (pyspotify example)
-    - lame
-    - eyeD3 (pip install eyeD3)
+- real-time VBR ripping from spotify PCM stream
+- writes id3 tags (including album cover)
+
+prerequisites:
+
+- libspotify (download at https://developer.spotify.com/technologies/libspotify/)
+- pyspotify (sudo pip install -U pyspotify)
+- spotify appkey (download at developer.spotify.com, requires premium!)
+- jukebox.py (pyspotify example)
+- lame
+- eyeD3 (pip install eyeD3)
 
 TODO:
+
 - detect if other spotify instance is interrupting
 - add album supprt : spotify:album:1UnRYaeCev9JVKEHWBEgHe
